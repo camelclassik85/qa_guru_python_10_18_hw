@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qa-guru-python-10-18-hw-"
+version = "0.1.0"
+description = ""
+authors = ["Alexander_Dulalaev <camel1985@mail.ru>"]
+readme = "README.md"
+packages = [{include = "qa_guru_python_10_18_hw_"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
